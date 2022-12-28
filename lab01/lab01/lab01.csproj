@@ -67,12 +67,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dulich.aspx" />
     <Content Include="Global.asax" />
     <Content Include="thongtin.aspx" />
+    <Content Include="thongtincanhan.aspx" />
     <Content Include="tinhtoan.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dulich.aspx.cs">
+      <DependentUpon>dulich.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dulich.aspx.designer.cs">
+      <DependentUpon>dulich.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -83,6 +92,13 @@
     </Compile>
     <Compile Include="thongtin.aspx.designer.cs">
       <DependentUpon>thongtin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="thongtincanhan.aspx.cs">
+      <DependentUpon>thongtincanhan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="thongtincanhan.aspx.designer.cs">
+      <DependentUpon>thongtincanhan.aspx</DependentUpon>
     </Compile>
     <Compile Include="tinhtoan.aspx.cs">
       <DependentUpon>tinhtoan.aspx</DependentUpon>
